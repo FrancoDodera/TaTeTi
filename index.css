@@ -1,3 +1,6 @@
+* {
+  background-color: #000000;
+}
 .container {
   text-align: center;
 }
@@ -7,14 +10,31 @@
   grid-template-columns: repeat(3, auto);
   width: 306px;
   margin: 50px auto;
+  color: wheat;
 }
 
 .game-cell {
   width: 100px;
   height: 100px;
-  box-shadow: 0 0 0 1px #333333;
-  border: 1px solid #333333;
+  box-shadow: 0 0 0 1px #cdc6c6;
+  border: 1px solid #ffffff;
   cursor: pointer;
   line-height: 100px;
   font-size: 60px;
+  border-radius: 10px;
+}
+.title {
+  color: violet;
+}
+.game-restart {
+  height: 50px;
+  width: 400px;
+  color: red;
+  background-color: pink;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.game-notification {
+  color: violet;
 }
